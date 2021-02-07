@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" contetnt="width=device-width, initial-scale:1.0">
+    <title>Head-Way</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" alt="try"> </a>
+        </nav>
+    </header>
+
+    <h1></h1>
+
+    <main>
+        <form action="" method="post">
+            <audio src=""> </audio>
+            <video src=""> </video>
+
+            <div> <span> </span> </div>
+            <select name="" id="" disabled="disabled">
+             <option value=""></option>
+            </select>
+            <input type="text" name="" id="">
+            <input type="search" name="" id="">
+        </form>
+
+    </main>
+
+    <footer> </footer>
+    <aside> </aside>
+    <!-- <script>
+        function _keys(obj) {
+            if (!isObject(obj)) return [];
+            if (Object.keys) return Object.keys(obj);
+            var keys = [];
+            for (var key in obj)
+                if (_.has(obj, key)) keys.push(key);
+            return keys;
+        }
+
+        function isObject(obj) {
+            var type = typeof obj;
+            return type === 'function' || type === 'object' && !!obj;
+        }
+        console.log(_keys({
+            red: "#FF0000",
+            green: "#00FF00",
+            white: "#FFFFFF"
+        }));
+    </script> -->
+    <script>
+        var num1, num2;
+        num1 = window.prompt("Input the First integer", "0");
+        num2 = window.prompt("Input the second integer", "0");
+
+        if (parseInt(num1, 10) > parseInt(num2, 10)) {
+            console.log("The larger of " + num1 + " and " + num2 + " is " + num1 + ".");
+        } else
+        if (parseInt(num2, 10) > parseInt(num1, 10)) {
+            console.log("The larger of " + num1 + " and " + num2 + " is " + num2 + ".");
+        } else {
+            console.log("The values " + num1 + " and " + num2 + " are equal.");
+        }
+    </script>
+</body>
+
+</html>
